@@ -6,6 +6,7 @@
    font-style: normal;
    font-variation-settings:
     "wdth" 100;
+    background-color: #1A0B2E;
     
 }
 *{
@@ -123,8 +124,8 @@ main{
 }
 .banner-description{
     font-size: 16px;
-    font-weight: 400;
-    color: #fff;
+    font-weight: 300;
+    color: #ffffffa5;
     margin-bottom: 20px;
 }
 .about{
@@ -247,13 +248,14 @@ hr{
     justify-items: center;
 }
 .features-card{
-    max-width: 380px;
+    max-width: 420px;
     min-height: 440px;
     background-color: #250D44;
     border-radius: 20px;
 }
 .title-description{
     padding: 24px;
+    gap: 12px;
 }
 .card-duration{
     color: #00FF88;
@@ -275,6 +277,36 @@ iframe{
     background-color: #250D44;
     border-radius: 40px;
     margin: 40px 0px 120px;
+}
+.icon{
+    gap: 10px;
+}
+.icon a{
+    border: 1px solid #fff;
+    padding: 10px 13px;
+    border-radius: 50%;
+    text-align: center;
+}
+.footer{
+    background: url('../Assets/footer-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 412px;
+}
+.footer-content{
+    margin: 0 auto;
+}
+.podcast-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-card{
+    display: flex;
+}
+.footer-card p{
+    color: #fff;
 }
 @media screen and (max-width:676px) {
     .banner{
@@ -334,14 +366,23 @@ iframe{
         margin: 0 auto;
     }
     .features{
-        padding: 20px;
+        padding: 20px 0px;
+        
     }
     .features-card-list{
         gap: 16px;
+
     }
     .choose-title,
-    .features-title{
-        font-size: 40px;
+    .features-title,
+    .host-title{
+        font-size: 32px;
         margin: 20px 2px 0px;
+    }
+    .host-container{
+        padding: 0px 20px;
+    }
+    .host-title{
+        margin: 0;
     }
 }
