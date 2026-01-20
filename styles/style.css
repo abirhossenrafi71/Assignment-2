@@ -420,5 +420,9 @@ iframe{
     .host-title{
         margin: 0;
     }
-    
+    .podcast-icon{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 0;
+    }
 }
