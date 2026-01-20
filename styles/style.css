@@ -311,7 +311,7 @@ iframe{
     gap: 32px;
 }
 .footer-logo{
-    width: 100%;
+    width: 80%;
 }
 .podcast-icon{
     display: grid;
@@ -423,6 +423,8 @@ iframe{
     .podcast-icon{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-        padding: 0;
+    }
+    .footer-card{
+        margin: 10px;
     }
 }
