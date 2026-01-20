@@ -307,25 +307,19 @@ iframe{
     align-items: center;
     
 }
-.footer-content{
-    gap: 32px;
-}
 .footer-logo{
-    width: 80%;
+    width: 400px;
 }
 .podcast-icon{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
+    gap: 0px;
     justify-content: center;
-}
-.footer-card{
-    display: flex;
-    gap: 10px;
     margin: 32px 0px;
 }
-.footer-card,.footer-content p{
+.footer-content p{
     color: #fff;
+    font-size: 16px;
 }
 
 @media screen and (max-width:676px) {
@@ -423,8 +417,5 @@ iframe{
     .podcast-icon{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-    }
-    .footer-card{
-        margin: 10px;
     }
 }
